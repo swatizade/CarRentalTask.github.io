@@ -226,7 +226,7 @@ hr{
 
 /* #resposive */
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
     .container{
         height: 50rem;
         width: 2orem;
@@ -304,9 +304,114 @@ hr{
     .box1 img{
         height: 18rem;
         width: 20rem;
-    }
+    } */
 
-}
+   
+    /* Add your existing styles here */
+    
+    /* Mobile view */
+    @media only screen and (max-width: 600px) {
+        .container {
+            width: 100%;
+            height: auto;
+        }
+    
+        .box {
+            flex-direction: column;
+        }
+    
+        .box1 img {
+            width: 100%; /* Make the image responsive */
+            height: auto;
+        }
+    
+        .box2 {
+            width: 100%;
+            margin-top: 20px; /* Add some spacing between box1 and box2 in mobile view */
+        }
+    
+        .box2 p {
+            margin-left: 0; /* Remove left margin for the paragraph */
+        }
+    
+        .logo {
+            flex-wrap: wrap; /* Allow logos to wrap to the next line in mobile view */
+        }
+    
+        .logo1,
+        .logo2,
+        .logo3 {
+            margin-left: 0; /* Remove left margin for logos in mobile view */
+            margin-top: 10px; /* Add some spacing between logos in mobile view */
+        }
+    
+        .Mainlogo img {
+            margin-left: 0; /* Remove left margin for the main logo in mobile view */
+            margin-top: 0; /* Remove top margin for the main logo in mobile view */
+        }
+    
+        .cl1 img,
+        .cl2 img,
+        .cl3 img {
+            margin-left: 0; /* Remove left margin for subheading icons in mobile view */
+            margin-top: 10px; /* Add some spacing between subheading icons in mobile view */
+        }
+    
+        .heading1 p,
+        .heading2 p,
+        .heading3 p {
+            margin-left: 0; /* Remove left margin for subheadings in mobile view */
+            margin-top: 0; /* Remove top margin for subheadings in mobile view */
+        }
+    
+        .contact {
+            flex-direction: column;
+            margin-top: 20px; /* Add some spacing between heading and contact icons in mobile view */
+        }
+    
+        .phone,
+        .whatsapp,
+        .direction {
+            width: 100%;
+            margin-left: 0; /* Remove left margin for contact icons in mobile view */
+            margin-top: 10px; /* Add some spacing between contact icons in mobile view */
+        }
+    
+        .phone img,
+        .whatsapp img,
+        .direction img {
+            margin-left: 0; /* Remove left margin for contact icons in mobile view */
+        }
+    
+        .road {
+            margin-left: 0; /* Remove left margin for pricing information in mobile view */
+        }
+    
+        .road1 {
+            flex-direction: column;
+            margin-left: 0; /* Remove left margin for pricing information in mobile view */
+            margin-top: 10px; /* Add some spacing between pricing information in mobile view */
+        }
+    
+        .road1 img {
+            margin-left: 0; /* Remove left margin for pricing icons in mobile view */
+        }
+    
+        .road1 p {
+            margin-top: 5px; /* Add some spacing between pricing text and icons in mobile view */
+        }
+    
+        .main,
+        .main1 {
+            margin-top: 20px; /* Add some spacing between pricing information and headings in mobile view */
+        }
+    }
+    
+    /* Tablet view (adjust the max-width value as needed) */
+    @media only screen and (min-width: 601px) and (max-width: 1024px) {
+        /* Add specific styles for tablet view if necessary */
+    }
+   
 
 
 

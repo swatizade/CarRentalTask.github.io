@@ -1,0 +1,314 @@
+.container{
+    /* border: 2px solid #000; */
+    height: 23rem;
+    width: 1518px;
+    margin-left: 0px;
+    margin-top: 0px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.box{
+    display: flex;
+}
+
+.box1 img{
+    height: 23rem;
+    width: 23.5rem;
+}
+
+.box2 {
+    width: 48rem;
+}
+
+.box2 p{
+    margin-left: 2rem;
+    font-size: 1.5rem;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo1{
+    height:30px;
+    width: 45px;
+    border-radius: 20px;
+    border: 2px solid #e0e0d1;
+    margin-left: 30px;
+    margin-top: -10px;
+}
+
+.logo1 img{
+    height: 20px;
+    margin-left: 13px;
+    margin-top: 3px;
+}
+
+.logo2{
+    height:30px;
+    width: 45px;
+    border-radius: 20px;
+    border: 2px solid #e0e0d1;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+.logo2 img{
+    height: 20px;
+    margin-left: 12px;
+    margin-top: 3px;
+}
+
+.logo3{
+    height:30px;
+    width: 45px;
+    border-radius: 20px;
+    border: 2px solid #e0e0d1;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+.logo3 img{
+    height: 20px;
+    margin-left: 14px;
+    margin-top: 3px;
+}
+
+hr{
+    margin-left: 30px;
+    margin-top: 20px;
+    border: 1px solid #e0e0d1;
+    z-index: -3;
+}
+
+.heading{
+    display: flex;
+}
+
+.Mainlogo img{
+    height: 13rem;
+    width: 13rem;
+    margin-left: 30px;
+    margin-top: -30px;
+}
+
+.cl1 img{
+    height:15px;
+    margin-left: 7rem; 
+    margin-top:1rem;
+}
+
+.heading1 p{
+    margin-left: 10rem;
+    font-size:19px;
+    letter-spacing: 0.2px;
+    margin-top: -30px;
+}
+
+.cl2 img{
+    height:16px;
+    margin-left: 7rem; 
+    margin-top:-120px;
+}
+
+.heading2 p{
+    margin-left: 10rem;
+    font-size:19px;
+    letter-spacing: 0.2px;
+    margin-top: -50px;
+}
+
+.cl3 img{
+    height:16px;
+    margin-left: 7rem; 
+    margin-top:-100px;
+}
+
+.heading3 p{
+    margin-left: 10rem;
+    font-size:19px;
+    letter-spacing: 0.2px;
+    margin-top: -30px;
+}
+
+/* contact */
+.contact{
+    display: flex;
+}
+
+.phone{
+    height: 50px;
+    width: 14rem;
+    /* border: 1px solid #000; */
+    margin-left: 30px;
+    border-bottom-left-radius: 30px 30px;
+    border-top-left-radius: 30px 30px;
+    margin-top: -1rem;
+    background-color: #ff8000;
+}
+
+.phone img{
+    height:30px;
+    width: 40px;
+    margin-left: 95px;
+    margin-top: 8px;
+}
+
+.whatsapp{
+    height: 50px;
+    width: 14rem;
+    /* border: 1px solid #000; */
+    margin-left: 30px;
+    /* border-bottom-left-radius: 30px 30px;
+    border-top-left-radius: 30px 30px; */
+    margin-top: -1rem;
+    background-color:#00cc44;
+    margin-left: 0px;
+}
+
+.whatsapp img{
+    height:30px;
+    width: 40px;
+    margin-left: 95px;
+    margin-top: 8px;
+}
+
+.direction{
+    height: 50px;
+    width: 14rem;
+    /* border: 1px solid #000; */
+    margin-left: 30px;
+    border-bottom-right-radius: 30px 30px;
+    border-top-right-radius: 30px 30px;
+    margin-top: -1rem;
+    background-color:#222;
+    margin-left: 0px;
+}
+
+.direction img{
+    height:30px;
+    width: 40px;
+    margin-left: 95px;
+    margin-top: 8px;
+}
+
+.road{
+    margin-left: -315px;
+}
+
+.road1{
+    display: flex;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+.road1 img{
+    height: 30px;
+    width: 30px;
+}
+
+.road1 p{
+    margin-top: 3px;
+    margin-left: 10px;
+    font-size:medium;
+}
+
+.main{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
+.main1{
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+/* #resposive */
+
+@media (max-width: 767px) {
+    .container{
+        height: 50rem;
+        width: 2orem;
+        border: 1px solid #444;
+        top:-10px;
+        left: -10px;
+    }
+    .box{
+        display: grid;
+    }
+    
+    .box1 img{
+        height: 18rem;
+        width: 20rem;
+    }
+    .Mainlogo img{
+        height: 5rem;
+        width: 5rem;
+        margin-left: 200px;
+        margin-top: -400px;
+    }
+
+    .logo1{
+        height:30px;
+        width: 45px;
+        border-radius: 20px;
+        border: 2px solid #e0e0d1;
+        margin-left: 30px;
+        margin-top: -10px;
+    }
+    
+    .logo1 img{
+        height: 20px;
+        margin-left: 13px;
+        margin-top: 3px;
+    }
+    
+    .logo2{
+        height:30px;
+        width: 45px;
+        border-radius: 20px;
+        border: 2px solid #e0e0d1;
+        margin-left: 10px;
+        margin-top: -10px;
+    }
+    
+    .logo2 img{
+        height: 20px;
+        margin-left: 12px;
+        margin-top: 3px;
+    }
+    
+    .logo3{
+        height:30px;
+        width: 45px;
+        border-radius: 20px;
+        border: 2px solid #e0e0d1;
+        margin-left: 10px;
+        margin-top: -10px;
+    }
+    
+    .logo3 img{
+        height: 20px;
+        margin-left: 14px;
+        margin-top: 3px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .box{
+        display: grid;
+    }
+    
+    .box1 img{
+        height: 18rem;
+        width: 20rem;
+    }
+
+}
+
+
+
+
+

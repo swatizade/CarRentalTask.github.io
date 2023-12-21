@@ -342,7 +342,7 @@ hr{
     
         .logo {
             flex-wrap: wrap; /* Allow logos to wrap to the next line in mobile view */
-            margin-top: -20px;
+            margin-top: -15px;
             margin-left: 1rem;
         }
     
@@ -350,6 +350,12 @@ hr{
         .logo2,
         .logo3 {
             margin-left: 0; /* Remove left margin for logos in mobile view */
+            margin-top: 10px; /* Add some spacing between logos in mobile view */
+        }
+
+        .logo2,
+        .logo3 {
+            margin-left: 2px; /* Remove left margin for logos in mobile view */
             margin-top: 10px; /* Add some spacing between logos in mobile view */
         }
 

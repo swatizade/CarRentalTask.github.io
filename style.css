@@ -25,6 +25,11 @@
     font-size: 1.5rem;
 }
 
+.mainheading{
+    margin-top: -180px;
+    margin-left: 14rem;
+}
+
 .logo{
     display: flex;
 }
@@ -331,11 +336,14 @@ hr{
         }
     
         .box2 p {
-            margin-left: 0; /* Remove left margin for the paragraph */
+            margin-left: 1rem; /* Remove left margin for the paragraph */
+            margin-top:-10px;
         }
     
         .logo {
             flex-wrap: wrap; /* Allow logos to wrap to the next line in mobile view */
+            margin-top: -20px;
+            margin-left: 1rem;
         }
     
         .logo1,
@@ -344,10 +352,22 @@ hr{
             margin-left: 0; /* Remove left margin for logos in mobile view */
             margin-top: 10px; /* Add some spacing between logos in mobile view */
         }
+
+        .heading{
+            margin-top: -6rem;
+            /* margin-left: ; */
+        }
+
+        .mainheading{
+            margin-top: -10px;
+            margin-left: 1rem;
+        }
     
         .Mainlogo img {
-            margin-left: 0; /* Remove left margin for the main logo in mobile view */
-            margin-top: 0; /* Remove top margin for the main logo in mobile view */
+            margin-left: 220px; /* Remove left margin for the main logo in mobile view */
+            margin-top: -30px; /* Remove top margin for the main logo in mobile view */
+            height: 70px;
+            width: 80px;
         }
     
         .cl1 img,

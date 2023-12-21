@@ -218,6 +218,23 @@ hr{
     font-size:medium;
 }
 
+.road2{
+    display: flex;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+.road2 img{
+    height: 30px;
+    width: 30px;
+}
+
+.road2 p{
+    margin-top: 3px;
+    margin-left: 10px;
+    font-size:medium;
+}
+
 .main{
     font-size: 20px;
     margin-top: 30px;
@@ -411,18 +428,26 @@ hr{
     
         .road {
             margin-left: 0; /* Remove left margin for pricing information in mobile view */
-            margin-top: -10px;
             display: flex;
+            font-size: 10px;
+            margin-top: 30px;
+        }
+        
+        .road p{
+            font-size: 15px;
+            margin-left: 1rem;
+            font-weight: 600;
         }
     
         .road1 {
             /* flex-direction: column; */
             margin-left: 0; /* Remove left margin for pricing information in mobile view */
-            margin-top: 10px; /* Add some spacing between pricing information in mobile view */
+            margin-top: 30px; /* Add some spacing between pricing information in mobile view */
+            margin-top: 13px;
         }
     
         .road1 img {
-            margin-left: 0; /* Remove left margin for pricing icons in mobile view */
+            margin-left: -50px; /* Remove left margin for pricing icons in mobile view */
             height: 20px;
             width: 20px;
         }
@@ -436,12 +461,40 @@ hr{
             display: none;
         }
 
-    
-        .main,
-        .main1 p{
-            margin-top: 50px; /* Add some spacing between pricing information and headings in mobile view */
-            font-size:10px;
+        hr{
+            margin-top: 15px;
         }
+        
+        .main,
+        .main1 {
+            margin-top: 40px; /* Add some spacing between pricing information and headings in mobile view */
+            font-size: xx-small;
+        }
+
+        .sec{
+            margin-left: 70px;
+        }
+
+        .road2 {
+            /* flex-direction: column; */
+            margin-left: 0; /* Remove left margin for pricing information in mobile view */
+            margin-top: 30px; /* Add some spacing between pricing information in mobile view */
+            margin-top: 13px;
+        }
+    
+        .road2 img {
+            margin-left: 10px; /* Remove left margin for pricing icons in mobile view */
+            height: 20px;
+            width: 20px;
+            margin-top: -10px;
+        }
+    
+        .road2 p {
+            margin-top: -5px; /* Add some spacing between pricing text and icons in mobile view */
+            font-size: 10px;
+        }
+
+    
     }
     
     /* Tablet view (adjust the max-width value as needed) */
